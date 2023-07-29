@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.lenskart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    /* margin: 0px 10px; */
+}
+.lenskart a{
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 12px;
+    
+}
+.navbar a{
+    border-right: 1px solid black;
+    padding-right: 5px;
+}
+.lenskart a:hover{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.674);
+}
+.navbar #last:hover{
+    border-bottom: 1px solid black;
+}
+
+.navbar a:nth-last-child(1){
+    border: none;
+}
+
+.navlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.tele{
+    transform: translateX(-10px);
+
+}
+.tele img{
+    height: 30px;
+    transform: translateY(10px);
+    margin-right: 10px;
+}
+.tele input{
+    width: 500px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding-left: 10px;
+    
+
+    /* margin-left: 0px; */
+}
+.tele input::placeholder{
+    font-size: 16px;
+    /* margin-left: 0px 5px; */
+    /* color: black; */
+}
+
+.links a{
+    text-decoration: none;
+    /* margin-right: 25px; */
+}
+.links{
+    
+}
+.navlink a{
+    margin: 0px 10px;
+    /* margin-right: 10px; */
+}
+.links {
+    margin-right: 10px;
+}
+
+
+
+
+.navlink2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0.305);
+    padding: 10px;
+    /* margin: 0px 15px; */
+}
+
+.navlink2 a{
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+.nav1{
+    margin: 0px 20px;
+}
+.btn {
+    margin-right: 10px;
+}
+.btn img{
+    border-radius: 6px;
+}
